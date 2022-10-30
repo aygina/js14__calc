@@ -31,6 +31,10 @@ const divide = () => {
     let a = aInput.value;
     let b = bInput.value;
 
+    if (b == 0) {
+        alert("На ноль делить нельзя!");
+    }
+
     result.textContent = a / b;
 }
 
