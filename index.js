@@ -33,9 +33,8 @@ const divide = () => {
 
     if (b == 0) {
         alert("На ноль делить нельзя!");
-    }
-
-    result.textContent = a / b;
+    } else
+        result.textContent = a / b;
 }
 
 sumBtn.onclick = sum;
